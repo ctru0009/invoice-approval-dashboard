@@ -49,6 +49,8 @@ During the design phase, multiple models were tested through the Pencil MCP to r
 
 This multi-model approach mirrors real production AI engineering. No single model is optimal for every step of a pipeline.
 
+The workflow also benefits from an agentic designer pattern where Spawn sub-agents work on different parts of the UI in parallel. That division of labor speeds up layout, iteration, and verification without forcing one model to do every step sequentially.
+
 ## What’s included
 
 - top stats bar
