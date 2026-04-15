@@ -41,6 +41,14 @@ This workflow allows a developer to:
 - validate structure before writing production code
 - use AI as a layout and assembly assistant instead of a guess-and-check tool
 
+During the design phase, multiple models were tested through the Pencil MCP to reflect how the workflow behaves in practice:
+
+- GLM 4.7, which surfaced frequent tool call errors and component overlap issues
+- GLM 5.1, which showed strong spatial planning but hit token limits at peak
+- GPT-5.4 mini, which completed the final 10 percent and was reliable for targeted tasks
+
+This multi-model approach mirrors real production AI engineering. No single model is optimal for every step of a pipeline.
+
 ## What’s included
 
 - top stats bar
