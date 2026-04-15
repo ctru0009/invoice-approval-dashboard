@@ -2,6 +2,16 @@
 
 An MVP/proof-of-concept invoice approval dashboard built from a Pencil.dev design and exported to React + Tailwind.
 
+## Screenshots
+
+Main dashboard design exported from Pencil.dev:
+
+![Invoice approval dashboard](./public/screenshots/nSNTs.png)
+
+Detail panel variant exported from Pencil.dev:
+
+![Invoice approval detail panel](./public/screenshots/Ev0fM.png)
+
 This project demonstrates a design-to-code workflow where the UI is first composed in the Pencil desktop app using the built-in Shadcn template, then translated into a working web page with a Claude/GPT model interacting through the Pencil MCP server.
 
 ## Why this exists
@@ -90,7 +100,7 @@ npm run build
 The Pencil design artifacts used for this POC are included in the repository:
 
 - `design.pen`
-- exported screenshots of the main screen and detail-panel variant
+- exported screenshots in `public/screenshots/`
 
 ## Future improvements
 
